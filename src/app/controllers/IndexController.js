@@ -1,12 +1,9 @@
-
 class IndexControllers {
-
-    index(req,res) {
+    index(req, res) {
         res.render('home');
     }
-    search(req,res) {
+    search(req, res) {
         res.send('search-page');
     }
-    
 }
-module.exports = new IndexControllers;
+module.exports = new IndexControllers();
