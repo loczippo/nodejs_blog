@@ -1,8 +1,28 @@
 @import 'variables';
 
-h1 {
-    color: $red-color;
+.card-courses-item {
+    margin-bottom: 12px;
 }
-h2 {
-    color: violet;
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.dropdown-menu {
+    margin-left: -25px;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 0.6s ease-in-out;
+}
+
+.card:hover img {
+    filter: brightness(60%);
+    transform: scale(1.1);
 }
