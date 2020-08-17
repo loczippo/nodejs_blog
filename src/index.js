@@ -42,6 +42,6 @@ app.set('views', path.join(__dirname, 'resources', 'views'));
 
 router(app);
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
     console.log(`App listening at http://localhost:${port}`);
 });
